@@ -173,3 +173,21 @@ while True:
         case 0:
             print("saliendo")
             break
+
+#17 A a Z
+#ord (conversión de cadena a número)
+empezar=ord('a')
+fin=ord('z')+1
+
+i=empezar
+while i != empezar:
+         caracter=chr(i)
+         i=i+1
+         print("caracter",caracter)
+
+#18 (cuenta atrás)
+for i in range(100,0,-1):
+         print(i)
+
+
+
