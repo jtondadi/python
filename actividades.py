@@ -168,3 +168,17 @@ elif(area < 12) :
    print("medium")
 else :
    print("large")
+
+#16. WHILE TRUE (case) útil para menús
+# Mientras no seleccione 0
+while True:
+    opcion=int(input("Opcion: 0. Salir; 1. On; 2. Off"))
+    
+    match opcion:
+        case 1:
+            print("1. encendido")
+        case 2:
+            print("2. apagado")
+        case 0:
+            print("saliendo")
+            break
