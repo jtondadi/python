@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Editor de Spyder
-
+Epidural.xlsx es un archivo de Excel , hay que comprobar según la tabla que se indique
 Este es un archivo temporal.
 """
 # cargar la base de datos 
