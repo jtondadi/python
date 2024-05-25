@@ -10,7 +10,7 @@ for row in cursor.fetchall():
 conn.close()
 #
 # pyodbc (librería para tratamiento de la base de datos)
-# instalación libreria pyodbc [** pip (! pip -m install pyodbc )]** para que pueda realizar la conexión a la base de datos
+# instalación libreria pyodbc [Ojo: módulo ** pip (! pip -m install pyodbc )]** para que pueda realizar la conexión a la base de datos
 # conn - conexión a la base de datos
 # cursor - se utiliza para poder recorrer posteriormente la base de datos
 # execute - consulta sql 
