@@ -21,11 +21,12 @@ def display_counter(i):
     # Convierte el valor en una lista de dígitos
     tm.numbers(i // 60, i % 60, True)
     
-def button_handler(pin):
+def button_handler(pin): #control de la interrupción (evento pulsado o no)
     global running
     running = not running
 
 button.irq(trigger=Pin.IRQ_RISING, handler=button_handler)
+#crear un evento, para cuando se pulse el botón, crear la interrupción correspondiente
 
 
 while True:
@@ -36,7 +37,7 @@ while True:
         i = i - 1
         
        # if i > -1:
-       if i (mayor que) (t*60):
+       if i > (t*60):
             i = 0
             
         display_counter(i)
