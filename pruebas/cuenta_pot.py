@@ -35,7 +35,8 @@ while True:
     if running:
         i = i - 1
         
-        if i > -1:
+       # if i > -1:
+       if i (mayor que) (t*60):
             i = 0
             
         display_counter(i)
