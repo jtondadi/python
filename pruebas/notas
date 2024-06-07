@@ -3,3 +3,7 @@ ____ control de Raspbery-Pi
  - BCM (gpio_nº)
  - BOARD (nº de pin)
  
+_ Comprobar configuración desde la terminal
+pines 
+ $ _gpio readall
+ $ _pinout
