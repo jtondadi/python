@@ -1,5 +1,8 @@
 # primera versión de desplazamiento 
 # scroll de texto (en la primera línea)
+# aplicar en una pantalla LCD 20*4 con módulo I2C (al estilo Arduino)
+# simulado en un ESP-32
+# Proyecto: https://wokwi.com/projects/402248828356016129
 # versión: Julio-2024 (jt)
 import machine
 import i2c_lcd
